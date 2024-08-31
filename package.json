@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node esbuild.config.js",
-    "dev": "nodemon --watch src --ext js,scss --exec \"node esbuild.config.js\""
+    "dev": "nodemon --watch src --ext js,ts,tsx,html,scss --exec \"node esbuild.config.js\""
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,8 @@
     "esbuild-postcss": "^0.0.4",
     "esbuild-sass-plugin": "^3.3.1",
     "live-server": "^1.2.2",
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4"
   },
   "dependencies": {
     "date-fns": "^3.6.0"

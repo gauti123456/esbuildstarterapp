@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/styles/style.scss"],
+  "sourcesContent": ["$primary-color:#57b40a;\r\n$text-color:#fff;\r\n\r\nbody{\r\n    background-color: $primary-color;\r\n}\r\n\r\np{\r\n    text-align:center;\r\n    color:$text-color;\r\n    font-size:45px;\r\n}"],
+  "mappings": "AAGA,KACI,iBAJW,QAOf,EACI,WAAA,OACA,MARQ,KASR,UAAA",
+  "names": []
+}

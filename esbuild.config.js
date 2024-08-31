@@ -19,7 +19,7 @@ function copyHtmlTemplate() {
 }
 
 esbuild.build({
-  entryPoints: ['src/main.js'],
+  entryPoints: ['src/main.ts'], // Change entry point to TypeScript file
   bundle: true,
   minify: true,
   sourcemap: true,
@@ -35,6 +35,10 @@ esbuild.build({
       minimize: true,
     })
   ],
+  loader: {
+    '.ts': 'ts', // Specify that TypeScript files should be handled by esbuild
+    '.tsx': 'tsx', // If you use TypeScript with JSX (React)
+  }
 }).then(() => {
   copyHtmlTemplate();
   console.log('Build completed!');
