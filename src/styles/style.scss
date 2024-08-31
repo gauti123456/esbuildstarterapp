@@ -1,0 +1,12 @@
+$primary-color:#57b40a;
+$text-color:#fff;
+
+body{
+    background-color: $primary-color;
+}
+
+p{
+    text-align:center;
+    color:$text-color;
+    font-size:45px;
+}

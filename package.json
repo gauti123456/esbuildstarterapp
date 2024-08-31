@@ -1,0 +1,25 @@
+{
+  "name": "rollupproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "dev": "nodemon --watch src --ext js,scss --exec \"node esbuild.config.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.5",
+    "esbuild": "^0.23.1",
+    "esbuild-postcss": "^0.0.4",
+    "esbuild-sass-plugin": "^3.3.1",
+    "live-server": "^1.2.2",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0"
+  }
+}
